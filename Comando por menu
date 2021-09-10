@@ -1,0 +1,28 @@
+Comando .teste
+
+$nomention
+$title[Teste]
+$description[Aqui estão todas as minhas girias:]
+$newSelectMenu[teste;1;1;Mas Bah!]
+$addSelectMenuOption[teste;MAIS BAAH;MAIS BAAH;Ganha Muito Like;no;]
+$addSelectMenuOption[teste;UQUE;UQUE;Ganha Muita View;no;]
+
+Comando $onInteraction[teste]
+
+$nomention
+
+$if[$message==MAIS BAAH]
+$nomention
+$color[#FF0000]
+$title[Gírias 🗣️]
+$description[Mas Bah Crocke Home do céu Home!]
+$addTimestamp
+$endif
+
+
+$if[$message==UQUE]
+$color[#FF0000]
+$title[Gírias 🗣️]
+$description[UQUEEEE]
+$addTimestamp
+$endif
